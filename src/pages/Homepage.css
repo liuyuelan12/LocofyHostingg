@@ -1,14 +1,3 @@
-.homes {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 20px 18.7px;
-  max-width: 1280px;
-  min-height: 1692px;
-}
 .show-more-button {
   width: 147px;
   height: 48px;
@@ -34,9 +23,6 @@
   letter-spacing: normal;
 }
 @media screen and (max-width: 1275px) {
-  .homes {
-    max-width: 100%;
-  }
   .stays-section {
     padding-top: var(--padding-xl);
     padding-bottom: var(--padding-xl);
